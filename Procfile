@@ -1,0 +1,1 @@
+web: MERCURE_PUBLISHER_JWT_KEY='bleu' MERCURE_SUBSCRIBER_JWT_KEY='bleu' ALLOW_ANONYMOUS=1 ADDR='localhost:8001' CORS_ALLOWED_ORIGINS='*' ./mercure run -config ./Caddyfile.dev
